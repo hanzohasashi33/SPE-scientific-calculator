@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="22" failures="0" name="OperationsTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="OperationsTest" time="0.01" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu220.04"/>
@@ -59,11 +59,11 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="OperationsTest" name="factorialFalsePositive" time="0.004"/>
+  <testcase classname="OperationsTest" name="factorialFalsePositive" time="0.006"/>
   <testcase classname="OperationsTest" name="squareRootTruePositive" time="0"/>
   <testcase classname="OperationsTest" name="naturalLogTruePositive" time="0"/>
   <testcase classname="OperationsTest" name="additionTruePositive" time="0"/>
-  <testcase classname="OperationsTest" name="zeroLogTen" time="0"/>
+  <testcase classname="OperationsTest" name="zeroLogTen" time="0.001"/>
   <testcase classname="OperationsTest" name="additionFalsePositive" time="0"/>
   <testcase classname="OperationsTest" name="negativeNumNaturalLog" time="0"/>
   <testcase classname="OperationsTest" name="subtractionFalsePositive" time="0"/>
@@ -72,13 +72,13 @@
   <testcase classname="OperationsTest" name="multiplicationTruePositive" time="0"/>
   <testcase classname="OperationsTest" name="negativeNumSquareRoot" time="0"/>
   <testcase classname="OperationsTest" name="negativeNumFactorial" time="0"/>
-  <testcase classname="OperationsTest" name="powerFalsePositive" time="0"/>
+  <testcase classname="OperationsTest" name="powerFalsePositive" time="0.001"/>
   <testcase classname="OperationsTest" name="divisionTruePositive" time="0"/>
-  <testcase classname="OperationsTest" name="negativeNumLogTen" time="0"/>
+  <testcase classname="OperationsTest" name="negativeNumLogTen" time="0.001"/>
   <testcase classname="OperationsTest" name="logTenFalsePositive" time="0"/>
   <testcase classname="OperationsTest" name="powerTruePositive" time="0"/>
   <testcase classname="OperationsTest" name="zeroNaturalLog" time="0"/>
-  <testcase classname="OperationsTest" name="NaturalLogFalsePositive" time="0"/>
+  <testcase classname="OperationsTest" name="NaturalLogFalsePositive" time="0.001"/>
   <testcase classname="OperationsTest" name="divisionByZero" time="0"/>
   <testcase classname="OperationsTest" name="subtractionTruePositive" time="0"/>
 </testsuite>
