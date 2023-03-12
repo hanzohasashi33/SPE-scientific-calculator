@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="OperationsTest" time="0.007" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="OperationsTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu220.04"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,9 +59,26 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="OperationsTest" name="testingMultiplication" time="0.006"/>
-  <testcase classname="OperationsTest" name="testingAddition" time="0"/>
-  <testcase classname="OperationsTest" name="testingDivisionByZero" time="0"/>
-  <testcase classname="OperationsTest" name="testingSubtraction" time="0"/>
-  <testcase classname="OperationsTest" name="testingDivision" time="0.001"/>
+  <testcase classname="OperationsTest" name="factorialFalsePositive" time="0.005"/>
+  <testcase classname="OperationsTest" name="squareRootTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="naturalLogTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="additionTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="zeroLogTen" time="0.001"/>
+  <testcase classname="OperationsTest" name="additionFalsePositive" time="0"/>
+  <testcase classname="OperationsTest" name="negativeNumNaturalLog" time="0"/>
+  <testcase classname="OperationsTest" name="subtractionFalsePositive" time="0.001"/>
+  <testcase classname="OperationsTest" name="logTenTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="factorialTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="multiplicationTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="negativeNumSquareRoot" time="0"/>
+  <testcase classname="OperationsTest" name="negativeNumFactorial" time="0"/>
+  <testcase classname="OperationsTest" name="powerFalsePositive" time="0"/>
+  <testcase classname="OperationsTest" name="divisionTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="negativeNumLogTen" time="0"/>
+  <testcase classname="OperationsTest" name="logTenFalsePositive" time="0"/>
+  <testcase classname="OperationsTest" name="powerTruePositive" time="0"/>
+  <testcase classname="OperationsTest" name="zeroNaturalLog" time="0"/>
+  <testcase classname="OperationsTest" name="NaturalLogFalsePositive" time="0"/>
+  <testcase classname="OperationsTest" name="divisionByZero" time="0"/>
+  <testcase classname="OperationsTest" name="subtractionTruePositive" time="0"/>
 </testsuite>
