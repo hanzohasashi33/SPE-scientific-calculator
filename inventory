@@ -1,4 +1,4 @@
-localhost ansible user=prasanna
+localhost ansible_user=prasanna
 
-[ubuntu 18]
-172.17.0.1 ansible_user=prasannamini
+[docker]
+172.17.0.2 ansible_ssh_pass=prasanna ansible_ssh_user=prasanna
