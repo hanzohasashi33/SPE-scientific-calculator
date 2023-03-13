@@ -1,0 +1,4 @@
+localhost ansible user=prasanna
+
+[ubuntu 18]
+172.17.0.1 ansible_user=prasannamini

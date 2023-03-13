@@ -1,0 +1,8 @@
+---
+- name: Copy jar file to inventory i.e. Pull docker image
+  hosts: all
+  tasks:
+          - name: Pull calculator docker image 
+            docker_image:
+                  name: prasanna33/scientificcalculator 
+                  source: pull
