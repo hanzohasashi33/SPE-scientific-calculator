@@ -6,3 +6,7 @@
             docker_image:
                   name: prasanna33/scientificcalculator 
                   source: pull
+
+          - name: Write command after pulling image
+            shell:
+              'echo "finished pulling image"'
