@@ -1,2 +1,2 @@
 localhost ansible_connection=local
-172.16.129.8 ansible_user=satwik ansible_password=Vivek@4596
+192.168.43.215 ansible_user=satwik ansible_password=Vivek@4596
