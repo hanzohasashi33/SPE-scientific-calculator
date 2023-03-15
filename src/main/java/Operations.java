@@ -24,7 +24,7 @@ public class Operations {
     public double division(double num1, double num2) {
         logger.info("[DIVISION] - " + num1 + ", " + num2);
         if(num2 == 0) {
-            logger.info("[ERROR - DIVISION] - Division by 0 is not possible");
+            logger.error("[ERROR - DIVISION] - Division by 0 is not possible");
             throw new ArithmeticException("Division by 0 is not possible");
         }
         logger.info("[RESULT - DIVISION] - " + (num1/num2));
@@ -35,7 +35,7 @@ public class Operations {
     public double squareRoot(double num) {
         logger.info("[SQRT] - " + num);
         if(num < 0) {
-            logger.info("[ERROR - SQRT] - Negative square roots not possible");
+            logger.error("[ERROR - SQRT] - Negative square roots not possible");
             throw new ArithmeticException("Negative square roots not possible");
         } else {
             logger.info("[RESULT - SQRT] - " + Math.sqrt(num));
@@ -48,7 +48,7 @@ public class Operations {
     public double factorial(int num) {
         logger.info("[FACTORIAL] - " + num);
         if(num < 0) {
-            logger.info("[ERROR - FACTORIAL] - Factorial of negative number not possible");
+            logger.error("[ERROR - FACTORIAL] - Factorial of negative number not possible");
             throw new ArithmeticException("Factorial of negative number not possible");
         } else {
             long res = 1;
@@ -62,16 +62,16 @@ public class Operations {
 
 
     public double naturalLog(double num) {
-        logger.info("[LOGe] - " + num);
+        logger.info("[LOGE] - " + num);
         if(num < 0) {
-            logger.info("[ERROR - Loge] - Natural log of negative numbers is not defined");
+            logger.error("[ERROR - LOGE] - Natural log of negative numbers is not defined");
             throw new ArithmeticException("Natural log of negative numbers is not defined");
         } else if(num == 0) {
-            logger.info("[ERROR - Loge] - Natural log of zero is not defined");
+            logger.error("[ERROR - LOGE] - Natural log of zero is not defined");
             throw new ArithmeticException("Natural log of zero is not defined");
         } else {
             double res = Math.log(num);
-            logger.info("[RESULT - LOGe] - " + res);
+            logger.info("[RESULT - LOGE] - " + res);
             return res;
         }
     }
@@ -79,10 +79,10 @@ public class Operations {
     public double logBaseTen(double num) {
         logger.info("[LOG] - " + num);
         if(num < 0) {
-            logger.info("[ERROR - Log] - Natural log of negative numbers is not defined");
+            logger.error("[ERROR - LOG] - Natural log of negative numbers is not defined");
             throw new ArithmeticException("Natural log of negative numbers is not defined");
         } else if(num == 0) {
-            logger.info("[ERROR - Log] - Natural log of zero is not defined");
+            logger.error("[ERROR - LOG] - Natural log of zero is not defined");
             throw new ArithmeticException("Natural log of zero is not defined");
         } else {
             double res = Math.log10(num);

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: OperationsTest
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.243 sec
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.26 sec
