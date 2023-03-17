@@ -86,3 +86,91 @@
 15/03/2023:07:48:53 134 [Operations.java] [INFO] Operations [RESULT - SUBTRACTION] - 0.5
 15/03/2023:07:48:53 135 [Operations.java] [INFO] Operations [SUBTRACTION] - 3.0, 4.0
 15/03/2023:07:48:53 138 [Operations.java] [INFO] Operations [RESULT - SUBTRACTION] - -1.0
+17/03/2023:16:33:14 682 [Operations.java] [INFO] Operations [FACTORIAL] - 5
+17/03/2023:16:33:14 744 [Operations.java] [INFO] Operations [RESULT - FACTORIAL] - 120
+17/03/2023:16:33:14 746 [Operations.java] [INFO] Operations [FACTORIAL] - 6
+17/03/2023:16:33:14 747 [Operations.java] [INFO] Operations [RESULT - FACTORIAL] - 720
+17/03/2023:16:33:14 761 [Operations.java] [INFO] Operations [SQRT] - 100.0
+17/03/2023:16:33:14 770 [Operations.java] [INFO] Operations [RESULT - SQRT] - 10.0
+17/03/2023:16:33:14 772 [Operations.java] [INFO] Operations [SQRT] - 54.0
+17/03/2023:16:33:14 774 [Operations.java] [INFO] Operations [RESULT - SQRT] - 7.3484692283495345
+17/03/2023:16:33:14 776 [Operations.java] [INFO] Operations [SQRT] - 0.0
+17/03/2023:16:33:14 777 [Operations.java] [INFO] Operations [RESULT - SQRT] - 0.0
+17/03/2023:16:33:14 778 [Operations.java] [INFO] Operations [LOGE] - 10.0
+17/03/2023:16:33:14 780 [Operations.java] [INFO] Operations [RESULT - LOGE] - 2.302585092994046
+17/03/2023:16:33:14 782 [Operations.java] [INFO] Operations [LOGE] - 1.0
+17/03/2023:16:33:14 785 [Operations.java] [INFO] Operations [RESULT - LOGE] - 0.0
+17/03/2023:16:33:14 808 [Operations.java] [INFO] Operations [ADDITION] - 10.0, 20.0
+17/03/2023:16:33:14 810 [Operations.java] [INFO] Operations [RESULT - ADDITION] - 30.0
+17/03/2023:16:33:14 812 [Operations.java] [INFO] Operations [ADDITION] - 25.5, 25.0
+17/03/2023:16:33:14 817 [Operations.java] [INFO] Operations [RESULT - ADDITION] - 50.5
+17/03/2023:16:33:14 823 [Operations.java] [INFO] Operations [LOG] - 0.0
+17/03/2023:16:33:14 824 [Operations.java] [ERROR] Operations [ERROR - LOG] - Natural log of zero is not defined
+17/03/2023:16:33:14 826 [Operations.java] [INFO] Operations [ADDITION] - 1.0, 1.0
+17/03/2023:16:33:14 827 [Operations.java] [INFO] Operations [RESULT - ADDITION] - 2.0
+17/03/2023:16:33:14 829 [Operations.java] [INFO] Operations [LOGE] - -34.0
+17/03/2023:16:33:14 830 [Operations.java] [ERROR] Operations [ERROR - LOGE] - Natural log of negative numbers is not defined
+17/03/2023:16:33:14 832 [Operations.java] [INFO] Operations [SUBTRACTION] - 2.0, 1.0
+17/03/2023:16:33:14 837 [Operations.java] [INFO] Operations [RESULT - SUBTRACTION] - 1.0
+17/03/2023:16:33:14 840 [Operations.java] [INFO] Operations [LOG] - 10.0
+17/03/2023:16:33:14 842 [Operations.java] [INFO] Operations [RESULT - LOG] - 1.0
+17/03/2023:16:33:14 843 [Operations.java] [INFO] Operations [LOG] - 1.0
+17/03/2023:16:33:14 844 [Operations.java] [INFO] Operations [RESULT - LOG] - 0.0
+17/03/2023:16:33:14 847 [Operations.java] [INFO] Operations [FACTORIAL] - 5
+17/03/2023:16:33:14 848 [Operations.java] [INFO] Operations [RESULT - FACTORIAL] - 120
+17/03/2023:16:33:14 850 [Operations.java] [INFO] Operations [FACTORIAL] - 2
+17/03/2023:16:33:14 851 [Operations.java] [INFO] Operations [RESULT - FACTORIAL] - 2
+17/03/2023:16:33:14 854 [Operations.java] [INFO] Operations [FACTORIAL] - 1
+17/03/2023:16:33:14 857 [Operations.java] [INFO] Operations [RESULT - FACTORIAL] - 1
+17/03/2023:16:33:14 858 [Operations.java] [INFO] Operations [FACTORIAL] - 0
+17/03/2023:16:33:14 860 [Operations.java] [INFO] Operations [RESULT - FACTORIAL] - 1
+17/03/2023:16:33:14 862 [Operations.java] [INFO] Operations [MULTIPLICATION] - 20.0, 10.0
+17/03/2023:16:33:14 863 [Operations.java] [INFO] Operations [RESULT - MULTIPLICATION] - 200.0
+17/03/2023:16:33:14 864 [Operations.java] [INFO] Operations [MULTIPLICATION] - 25.5, 25.0
+17/03/2023:16:33:14 865 [Operations.java] [INFO] Operations [RESULT - MULTIPLICATION] - 637.5
+17/03/2023:16:33:14 866 [Operations.java] [INFO] Operations [MULTIPLICATION] - -3.0, 4.0
+17/03/2023:16:33:14 867 [Operations.java] [INFO] Operations [RESULT - MULTIPLICATION] - -12.0
+17/03/2023:16:33:14 868 [Operations.java] [INFO] Operations [MULTIPLICATION] - -3.0, -4.0
+17/03/2023:16:33:14 868 [Operations.java] [INFO] Operations [RESULT - MULTIPLICATION] - 12.0
+17/03/2023:16:33:14 869 [Operations.java] [INFO] Operations [MULTIPLICATION] - 3.0, -4.0
+17/03/2023:16:33:14 870 [Operations.java] [INFO] Operations [RESULT - MULTIPLICATION] - -12.0
+17/03/2023:16:33:14 875 [Operations.java] [INFO] Operations [SQRT] - -10.0
+17/03/2023:16:33:14 877 [Operations.java] [ERROR] Operations [ERROR - SQRT] - Negative square roots not possible
+17/03/2023:16:33:14 881 [Operations.java] [INFO] Operations [FACTORIAL] - -5
+17/03/2023:16:33:14 882 [Operations.java] [ERROR] Operations [ERROR - FACTORIAL] - Factorial of negative number not possible
+17/03/2023:16:33:14 885 [Operations.java] [INFO] Operations [POWER] - 2.0 3.0
+17/03/2023:16:33:14 890 [Operations.java] [INFO] Operations [RESULT - POWER] - 8.0
+17/03/2023:16:33:14 892 [Operations.java] [INFO] Operations [POWER] - -3.0 4.0
+17/03/2023:16:33:14 896 [Operations.java] [INFO] Operations [RESULT - POWER] - 81.0
+17/03/2023:16:33:14 898 [Operations.java] [INFO] Operations [DIVISION] - 20.0, 10.0
+17/03/2023:16:33:14 900 [Operations.java] [INFO] Operations [RESULT - DIVISION] - 2.0
+17/03/2023:16:33:14 900 [Operations.java] [INFO] Operations [DIVISION] - -20.0, 10.0
+17/03/2023:16:33:14 901 [Operations.java] [INFO] Operations [RESULT - DIVISION] - -2.0
+17/03/2023:16:33:14 903 [Operations.java] [INFO] Operations [DIVISION] - 20.0, -10.0
+17/03/2023:16:33:14 905 [Operations.java] [INFO] Operations [RESULT - DIVISION] - -2.0
+17/03/2023:16:33:14 907 [Operations.java] [INFO] Operations [DIVISION] - 20.2, 10.0
+17/03/2023:16:33:14 908 [Operations.java] [INFO] Operations [RESULT - DIVISION] - 2.02
+17/03/2023:16:33:14 913 [Operations.java] [INFO] Operations [LOG] - -34.0
+17/03/2023:16:33:14 913 [Operations.java] [ERROR] Operations [ERROR - LOG] - Natural log of negative numbers is not defined
+17/03/2023:16:33:14 915 [Operations.java] [INFO] Operations [LOG] - 15.0
+17/03/2023:16:33:14 916 [Operations.java] [INFO] Operations [RESULT - LOG] - 1.1760912590556813
+17/03/2023:16:33:14 917 [Operations.java] [INFO] Operations [LOG] - 12.3
+17/03/2023:16:33:14 917 [Operations.java] [INFO] Operations [RESULT - LOG] - 1.089905111439398
+17/03/2023:16:33:14 918 [Operations.java] [INFO] Operations [POWER] - 2.0 5.0
+17/03/2023:16:33:14 919 [Operations.java] [INFO] Operations [RESULT - POWER] - 32.0
+17/03/2023:16:33:14 920 [Operations.java] [INFO] Operations [POWER] - -4.5 3.0
+17/03/2023:16:33:14 921 [Operations.java] [INFO] Operations [RESULT - POWER] - -91.125
+17/03/2023:16:33:14 923 [Operations.java] [INFO] Operations [LOGE] - 0.0
+17/03/2023:16:33:14 924 [Operations.java] [ERROR] Operations [ERROR - LOGE] - Natural log of zero is not defined
+17/03/2023:16:33:14 927 [Operations.java] [INFO] Operations [LOGE] - 15.0
+17/03/2023:16:33:14 930 [Operations.java] [INFO] Operations [RESULT - LOGE] - 2.70805020110221
+17/03/2023:16:33:14 931 [Operations.java] [INFO] Operations [LOGE] - 12.3
+17/03/2023:16:33:14 932 [Operations.java] [INFO] Operations [RESULT - LOGE] - 2.509599262378372
+17/03/2023:16:33:14 936 [Operations.java] [INFO] Operations [DIVISION] - 10.0, 0.0
+17/03/2023:16:33:14 936 [Operations.java] [ERROR] Operations [ERROR - DIVISION] - Division by 0 is not possible
+17/03/2023:16:33:14 938 [Operations.java] [INFO] Operations [SUBTRACTION] - 20.0, 10.0
+17/03/2023:16:33:14 939 [Operations.java] [INFO] Operations [RESULT - SUBTRACTION] - 10.0
+17/03/2023:16:33:14 940 [Operations.java] [INFO] Operations [SUBTRACTION] - 25.5, 25.0
+17/03/2023:16:33:14 941 [Operations.java] [INFO] Operations [RESULT - SUBTRACTION] - 0.5
+17/03/2023:16:33:14 941 [Operations.java] [INFO] Operations [SUBTRACTION] - 3.0, 4.0
+17/03/2023:16:33:14 942 [Operations.java] [INFO] Operations [RESULT - SUBTRACTION] - -1.0
