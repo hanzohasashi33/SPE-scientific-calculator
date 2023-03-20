@@ -1,12 +1,19 @@
 ---
-- name: Copy jar file to inventory i.e. Pull docker image
+- name: Pull docker image
   hosts: all
   tasks:
+          - name: Start docker service
+            service:
+                name: docker
+                state: started
+
           - name: Pull calculator docker image 
             docker_image:
                   name: prasanna33/scientificcalculator 
                   source: pull
 
           - name: Write command after pulling image
-            shell:
-              'echo "finished pulling image"'
+            shell: 'echo "finished pulling image"'
+
+          - name: running container
+            shell: docker run -it -d prasanna33/scientificcalculator /bin/bash
