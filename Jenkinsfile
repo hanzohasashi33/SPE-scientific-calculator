@@ -69,7 +69,7 @@ pipeline {
                 sh "ansible --version"
                 sh "/usr/bin/python3 --version"
                 sh "/usr/bin/pip3 install docker"
-                sh "ansible-playbook --connection=local --inventory ./inventory --limit 127.0.0.1 p2.yml"
+                ansiblePlaybook credentialsId: 'prasanna_vm_ssh', disableHostKeyChecking: true, installation: 'ansible_1', inventory: 'inventory', playbook: 'p2.yml'
             }
         }
 
