@@ -11,4 +11,4 @@
             shell: 'echo "finished pulling image"'
 
           - name: running container
-            shell: docker run -it -d prasanna33/scientificcalculator /bin/bash
+            shell: docker run -it -d prasanna33/scientificcalculator
